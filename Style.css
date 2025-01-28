@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Header Styles */
+.dynamic-header {
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 10px 20px;
+    z-index: 1000;
+    border-bottom: 1px solid #333;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hamburger-menu {
+    background: none;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background: #111;
+    text-align: center;
+}
+
+#menu ul li {
+    margin: 10px 0;
+}
+
+#menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Hero Section */
+.hero-section {
+    height: 100vh;
+    background: url('hero-bg.jpg') no-repeat center center / cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* Content Sections */
+.content-section {
+    padding: 50px 0;
+    background: rgba(255, 255, 255, 0.1);
+    margin-bottom: 20px;
+}
